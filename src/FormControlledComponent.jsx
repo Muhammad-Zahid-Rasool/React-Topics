@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 
 export default function FormControlledComponent() {
   
-    const {name , setName} = useState('');
+    const [name ] = useState('');
    
     return (
     <div>
